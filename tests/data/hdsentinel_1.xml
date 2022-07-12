@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="ISO-8859-2"?>
+<Hard_Disk_Sentinel>
+  <General_Information>
+    <Application_Information>
+      <Installed_version>Hard Disk Sentinel 4.71 PRO</Installed_version>
+    </Application_Information>
+    <Computer_Information>
+      <Computer_Name>Test</Computer_Name>
+      <User_Name>Test user</User_Name>
+    </Computer_Information>
+    <System_Information>
+      <Windows_Version>Windows 10</Windows_Version>
+    </System_Information>
+    <PCI_Device_Information>
+      <PCI_bus_0_device_0_function_0>Xeon(R) processor</PCI_bus_0_device_0_function_0>
+  <Errors>
+  NumOfDrives: 5 //
+    0: NONE RS:T DE:0 IS:0 T: 8 ms, Time:  ATAID:4 AE ENABLE_SMART:0 SMART_THRESHOLDS:2 SMART_VALUES:1 //
+    1: NONE RS:T DE:0 IS:0 T: 10 ms, Time:  ATAID:3 AE ENABLE_SMART:0 SMART_THRESHOLDS:4 SMART_VALUES:3 //
+    2: NONE RS:T DE:0 IS:0 T: 38 ms, Time:  ATAID:5 AE ENABLE_SMART:0 SMART_THRESHOLDS:4 SMART_VALUES:28 //
+    3: NONE RS:T DE:0 IS:0 T: 37 ms, Time:  ATAID:4 AE ENABLE_SMART:0 SMART_THRESHOLDS:14 SMART_VALUES:17 //
+    4: NONE RS:T DE:0 IS:0 T: 48 ms, Time:  ATAID:15 AE ENABLE_SMART:0 SMART_THRESHOLDS:15 SMART_VALUES:17 //
+    100: , Time: //
+    101: , Time: //
+    102: , Time: //
+    103: , Time: //
+    104: , Time: //
+    105: , Time: //
+    106: , Time: //
+    107: , Time: //
+    108: , Time: //
+    109: , Time: //
+    110: , Time: //
+    111: , Time: //
+    112: , Time: //
+    113: , Time: //
+    114: , Time: //
+    115: , Time: //
+    116: , Time: //
+    117: , Time: //
+    118: , Time: //
+    119: , Time: //
+    120: , Time: //
+    121: , Time: //
+    122: , Time: //
+    123: , Time: //
+    124: , Time: //
+    125: , Time: //
+    126: , Time: //
+    127: , Time: //
+    128: , Time: //
+    129: , Time: //
+    130: , Time: //
+    131: , Time: //
+    132: , Time: //
+    133: , Time: //
+    134: , Time: //
+    135: , Time: //
+    136: , Time: //
+    137: , Time: //
+    138: , Time: //
+    139: , Time: //
+    140: , Time: //
+    141: , Time: //
+    142: , Time: //
+    143: , Time: //
+    144: , Time: //
+    145: , Time: //
+    146: , Time: //
+    147: , Time: //
+    148: , Time: //
+    149: , Time: //
+    150: , Time: //
+    151: , Time: //
+    152: , Time: //
+    153: , Time: //
+    154: , Time: //
+    155: , Time: //
+    156: , Time: //
+    157: , Time: //
+    158: , Time: //
+    159: , Time: //
+    160: , Time: //
+    161: , Time: //
+    162: , Time: //
+    163: , Time: //
+    164: , Time: //
+    165: , Time: //
+    166: , Time: //
+    167: , Time: //
+    168: , Time: //
+    169: , Time: //
+    170: , Time: //
+    171: , Time: //
+    172: , Time: //
+    173: , Time: //
+    174: , Time: //
+    175: , Time: //
+    176: , Time: //
+    177: , Time: //
+    178: , Time: //
+    179: , Time: //
+    180: , Time: //
+    181: , Time: //
+    182: , Time: //
+    183: , Time: //
+    184: , Time: //
+    185: , Time: //
+    186: , Time: //
+    187: , Time: //
+    188: , Time: //
+    189: , Time: //
+    190: , Time: //
+    191: , Time: //
+    192: , Time: //
+    193: , Time: //
+    194: , Time: //
+    195: , Time: //
+    196: , Time: //
+    197: , Time: //
+    198: , Time: //
+  </Errors>
+    </PCI_Device_Information>
+  </General_Information>
+  <Physical_Disk_Information_Disk_0>
+    <Hard_Disk_Summary>
+      <Hard_Disk_Number>0</Hard_Disk_Number>
+      <Interface>S-ATA Gen3, 6 Gbps</Interface>
+      <Disk_Controller>����������� ���������� Disk controller</Disk_Controller>
+      <Disk_Location>Channel 1, Target 0, Lun 0, Device: 0</Disk_Location>
+      <Hard_Disk_Model_ID>SSD Model</Hard_Disk_Model_ID>
+      <Firmware_Revision>1234567890</Firmware_Revision>
+      <Hard_Disk_Serial_Number>1234567890</Hard_Disk_Serial_Number>
+      <SSD_Controller>SSD Controller</SSD_Controller>
+      <Total_Size>12345 MB</Total_Size>
+      <Power_State>Active</Power_State>
+      <Logical_Drive_s>C: [VOLUME1] D: [VOLUME2] </Logical_Drive_s>
+      <Current_Temperature>38 �C</Current_Temperature>
+      <Maximum_Temperature_ever_measured>49 �C, 17.07.1970 22:28:37</Maximum_Temperature_ever_measured>
+      <Minimum_Temperature_ever_measured>16 �C, 17.11.1970 14:42:12</Minimum_Temperature_ever_measured>
+      <Daily_Average>38.80 �C</Daily_Average>
+      <Daily_Maximum>40 �C</Daily_Maximum>
+      <Power_on_time>1593 days, 6 hours</Power_on_time>
+      <Estimated_remaining_lifetime>200 days</Estimated_remaining_lifetime>
+      <Health>93 %</Health>
+      <Performance>100 %</Performance>
+      <Description>The status of the solid state disk is PERFECT. Problematic or weak sectors were not found.  The TRIM feature of the SSD is supported and enabled for optimal performance. The health is determined by SSD specific S.M.A.R.T. attribute(s):  #177 Wear Leveling Count</Description>
+      <Tip>No actions needed.</Tip>
+    </Hard_Disk_Summary>
+    <ATA_Information>
+      <Hard_Disk_Cylinders>1234567890</Hard_Disk_Cylinders>
+      <Hard_Disk_Heads>16</Hard_Disk_Heads>
+      <Hard_Disk_Sectors>63</Hard_Disk_Sectors>
+      <ATA_Revision>ATA8-ACS version 4c</ATA_Revision>
+      <Transport_Version>SATA Rev 2.6</Transport_Version>
+      <Total_Sectors>1234567890</Total_Sectors>
+      <Bytes_Per_Sector>512</Bytes_Per_Sector>
+      <Multiple_Sectors>1</Multiple_Sectors>
+      <Error_Correction_Bytes>0</Error_Correction_Bytes>
+      <Unformatted_Capacity>244198 MB</Unformatted_Capacity>
+      <Maximum_PIO_Mode>4</Maximum_PIO_Mode>
+      <Maximum_Multiword_DMA_Mode>2</Maximum_Multiword_DMA_Mode>
+      <Highest_Possible_Transfer_Rate>S-ATA Gen3 Signaling Speed (6 Gps)</Highest_Possible_Transfer_Rate>
+      <Negotiated_Transfer_Rate>S-ATA Gen3 Signaling Speed (6 Gps)</Negotiated_Transfer_Rate>
+      <Minimum_multiword_DMA_Transfer_Time>120 ns</Minimum_multiword_DMA_Transfer_Time>
+      <Recommended_Multiword_DMA_Transfer_Time>120 ns</Recommended_Multiword_DMA_Transfer_Time>
+      <Minimum_PIO_Transfer_Time_Without_IORDY>120 ns</Minimum_PIO_Transfer_Time_Without_IORDY>
+      <Minimum_PIO_Transfer_Time_With_IORDY>120 ns</Minimum_PIO_Transfer_Time_With_IORDY>
+      <ATA_Control_Byte>Valid</ATA_Control_Byte>
+      <ATA_Checksum_Value>Valid</ATA_Checksum_Value>
+    </ATA_Information>
+    <Acoustic_Management_Configuration>
+      <Acoustic_Management>Not supported [0]</Acoustic_Management>
+      <Acoustic_Management>Disabled</Acoustic_Management>
+      <Current_Acoustic_Level>Default (00h)</Current_Acoustic_Level>
+      <Recommended_Acoustic_Level>Default (00h)</Recommended_Acoustic_Level>
+    </Acoustic_Management_Configuration>
+    <ATA_Features>
+      <Read_Ahead_Buffer>Supported [1], Enabled</Read_Ahead_Buffer>
+      <DMA>Supported [1]</DMA>
+      <Ultra_DMA>Supported [1]</Ultra_DMA>
+      <S.M.A.R.T.>Supported [1]</S.M.A.R.T.>
+      <Power_Management>Supported [1]</Power_Management>
+      <Write_Cache>Supported [1]</Write_Cache>
+      <Host_Protected_Area>Supported [1]</Host_Protected_Area>
+      <Advanced_Power_Management>Not supported [0]</Advanced_Power_Management>
+      <Extended_Power_Management>Not supported [0]</Extended_Power_Management>
+      <Power_Up_In_Standby>Not supported [0]</Power_Up_In_Standby>
+      <XN_48_bit_LBA_Addressing>Supported [1]</XN_48_bit_LBA_Addressing>
+      <Device_Configuration_Overlay>Supported [1]</Device_Configuration_Overlay>
+      <IORDY_Support>Supported [1]</IORDY_Support>
+      <Read_Write_DMA_Queue>Not supported [0]</Read_Write_DMA_Queue>
+      <NOP_Command>Supported [1]</NOP_Command>
+      <Trusted_Computing>Supported [1]</Trusted_Computing>
+      <XN_64_bit_World_Wide_ID>025088532340DE10</XN_64_bit_World_Wide_ID>
+      <Streaming>Not supported [0]</Streaming>
+      <Media_Card_Pass_Through>Not supported [0]</Media_Card_Pass_Through>
+      <General_Purpose_Logging>Supported [1]</General_Purpose_Logging>
+      <Error_Logging>Supported [1]</Error_Logging>
+      <CFA_Feature_Set>Not supported [0]</CFA_Feature_Set>
+      <CFast_Device>Not supported [0]</CFast_Device>
+      <Long_Physical_Sectors_1>Not supported [0]</Long_Physical_Sectors_1>
+      <Long_Logical_Sectors>Not supported [0]</Long_Logical_Sectors>
+      <Write_Read_Verify>Supported [1], Disabled</Write_Read_Verify>
+      <NV_Cache_Feature>Not supported [0]</NV_Cache_Feature>
+      <NV_Cache_Power_Mode>Not supported [0]</NV_Cache_Power_Mode>
+      <NV_Cache_Size>Not supported [0]</NV_Cache_Size>
+      <Free_fall_Control>Not supported [0]</Free_fall_Control>
+      <Free_fall_Control_Sensitivity>Not supported [0]</Free_fall_Control_Sensitivity>
+      <Nominal_Media_Rotation_Rate>Non-rotating Media (SSD)</Nominal_Media_Rotation_Rate>
+    </ATA_Features>
+    <SSD_Features>
+      <Data_Set_Management>Supported [1]</Data_Set_Management>
+      <TRIM_Command>Supported [1]</TRIM_Command>
+      <Deterministic_Read_After_TRIM>Not supported [0]</Deterministic_Read_After_TRIM>
+      <Operating_System_TRIM_Function>Supported [1], Enabled</Operating_System_TRIM_Function>
+    </SSD_Features>
+    <S.M.A.R.T._Details>
+      <Off_line_Data_Collection_Status>Never Started</Off_line_Data_Collection_Status>
+      <Self_Test_Execution_Status>Successfully Completed</Self_Test_Execution_Status>
+      <Total_Time_To_Complete_Off_line_Data_Collection>0 seconds</Total_Time_To_Complete_Off_line_Data_Collection>
+      <Execute_Off_line_Immediate>Supported [1]</Execute_Off_line_Immediate>
+      <Abort_restart_Off_line_By_Host>Not supported [0]</Abort_restart_Off_line_By_Host>
+      <Off_line_Read_Scanning>Not supported [0]</Off_line_Read_Scanning>
+      <Short_Self_test>Supported [1]</Short_Self_test>
+      <Extended_Self_test>Supported [1]</Extended_Self_test>
+      <Conveyance_Self_test>Not supported [0]</Conveyance_Self_test>
+      <Selective_Self_Test>Supported [1]</Selective_Self_Test>
+      <Save_Data_Before_After_Power_Saving_Mode>Supported [1]</Save_Data_Before_After_Power_Saving_Mode>
+      <Enable_Disable_Attribute_Autosave>Supported [1]</Enable_Disable_Attribute_Autosave>
+      <Error_Logging_Capability>Supported [1]</Error_Logging_Capability>
+      <Short_Self_test_Estimated_Time>2 minutes</Short_Self_test_Estimated_Time>
+      <Extended_Self_test_Estimated_Time>136 minutes</Extended_Self_test_Estimated_Time>
+      <Last_Short_Self_test_Result>Never Started</Last_Short_Self_test_Result>
+      <Last_Short_Self_test_Date>Never Started</Last_Short_Self_test_Date>
+      <Last_Extended_Self_test_Result>Never Started</Last_Extended_Self_test_Result>
+      <Last_Extended_Self_test_Date>Never Started</Last_Extended_Self_test_Date>
+    </S.M.A.R.T._Details>
+    <Security_Mode>
+      <Security_Mode>Supported [1]</Security_Mode>
+      <Security_Erase>Supported [1]</Security_Erase>
+      <Security_Erase_Time>2 minutes</Security_Erase_Time>
+      <Security_Enhanced_Erase_Feature>Supported [1]</Security_Enhanced_Erase_Feature>
+      <Security_Enhanced_Erase_Time>2 minutes</Security_Enhanced_Erase_Time>
+      <Security_Enabled>No</Security_Enabled>
+      <Security_Locked>No</Security_Locked>
+      <Security_Frozen>Yes</Security_Frozen>
+      <Security_Counter_Expired>No</Security_Counter_Expired>
+      <Security_Level>High</Security_Level>
+    </Security_Mode>
+    <Serial_ATA_Features>
+      <S_ATA_Compliance>Yes</S_ATA_Compliance>
+      <S_ATA_I_Signaling_Speed_1.5_Gps>Supported [1]</S_ATA_I_Signaling_Speed_1.5_Gps>
+      <S_ATA_II_Signaling_Speed_3_Gps>Supported [1]</S_ATA_II_Signaling_Speed_3_Gps>
+      <S_ATA_Gen3_Signaling_Speed_6_Gps>Supported [1]</S_ATA_Gen3_Signaling_Speed_6_Gps>
+      <Receipt_Of_Power_Management_Requests_From_Host>Not supported [0]</Receipt_Of_Power_Management_Requests_From_Host>
+      <PHY_Event_Counters>Supported [1]</PHY_Event_Counters>
+      <Non_Zero_Buffer_Offsets_In_DMA_Setup_FIS>Not supported [0]</Non_Zero_Buffer_Offsets_In_DMA_Setup_FIS>
+      <DMA_Setup_Auto_Activate_Optimization>Supported [1], Disabled</DMA_Setup_Auto_Activate_Optimization>
+      <Device_Initiating_Interface_Power_Management>Supported [1], Disabled</Device_Initiating_Interface_Power_Management>
+      <In_Order_Data_Delivery>Not supported [0]</In_Order_Data_Delivery>
+      <Asynchronous_Notification>Supported [1], Enabled</Asynchronous_Notification>
+      <Software_Settings_Preservation>Supported [1], Enabled</Software_Settings_Preservation>
+      <Native_Command_Queuing_NCQ>Supported [1]</Native_Command_Queuing_NCQ>
+      <Queue_Length>32</Queue_Length>
+    </Serial_ATA_Features>
+    <Disk_Information>
+      <Disk_Information></Disk_Information>
+      <Form_Factor>2.5"</Form_Factor>
+      <Capacity>123 GB (123 x 1�000�000 bytes)</Capacity>
+      <Disk_Interface>Serial-ATA/600</Disk_Interface>
+      <Device_Type>Device Type</Device_Type>
+      <Width>69.8 mm (2.7 inch)</Width>
+      <Depth>100.0 mm (3.9 inch)</Depth>
+      <Height>9.5 mm (0.4 inch)</Height>
+    </Disk_Information>
+    <S.M.A.R.T.>
+      <Attribute ID="5" Name="Reallocated Sectors Count" Threshold="10" Value="100" Worst="100" Data="000000000000" Status="OK" Flags="Self Preserving, Event Count, Statistical, Critical" />
+      <Attribute ID="9" Name="Power On Time Count" Threshold="0" Value="92" Worst="92" Data="00000000955E" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="12" Name="Drive Power Cycle Count" Threshold="0" Value="98" Worst="98" Data="000000000488" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="177" Name="Wear Leveling Count" Threshold="0" Value="93" Worst="93" Data="0000000001A2" Status="OK (Always passing)" Flags="Event Count, Statistical, Critical" />
+      <Attribute ID="179" Name="Used Reserved Block Count (Total)" Threshold="10" Value="100" Worst="100" Data="000000000000" Status="OK" Flags="Event Count, Statistical, Critical" />
+      <Attribute ID="181" Name="Program Fail Count (Total)" Threshold="10" Value="100" Worst="100" Data="000000000000" Status="OK" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="182" Name="Erase Fail Count (Total)" Threshold="10" Value="100" Worst="100" Data="000000000000" Status="OK" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="183" Name="Runtime Bad Block (Total)" Threshold="10" Value="100" Worst="100" Data="000000000000" Status="OK" Flags="Event Count, Statistical, Critical" />
+      <Attribute ID="187" Name="Uncorrectable Error Count" Threshold="0" Value="100" Worst="100" Data="000000000000" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="190" Name="Temperature" Threshold="0" Value="62" Worst="51" Data="000000000026" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+      <Attribute ID="195" Name="ECC Rate" Threshold="0" Value="200" Worst="200" Data="000000000000" Status="OK (Always passing)" Flags="Event Count, Error-Rate, Statistical" />
+      <Attribute ID="199" Name="Ultra ATA CRC Error Count" Threshold="0" Value="99" Worst="99" Data="000000000001" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Error-Rate, Performance, Statistical" />
+      <Attribute ID="235" Name="POR Recovery Count" Threshold="0" Value="99" Worst="99" Data="000000000046" Status="OK (Always passing)" Flags="Event Count, Statistical" />
+      <Attribute ID="241" Name="Total LBA Written" Threshold="0" Value="99" Worst="99" Data="0016245E4C3F" Status="OK (Always passing)" Flags="Self Preserving, Event Count, Statistical" />
+    </S.M.A.R.T.>
+    <Transfer_Rate_Information>
+      <Total_Data_Read>12�123 MB,  1�123�123 MB since installation  (02.02.1970)</Total_Data_Read>
+      <Total_Data_Write>1�123�123 MB,  12�123�123 MB since installation</Total_Data_Write>
+      <Average_Reads_Per_Day>1�123.12 MB</Average_Reads_Per_Day>
+      <Average_Writes_Per_Day>12�123.12 MB</Average_Writes_Per_Day>
+      <Current_Transfer_Rate>0 KB/s</Current_Transfer_Rate>
+      <Maximum_Transfer_Rate>123456 KB/s</Maximum_Transfer_Rate>
+      <Current_Read_Rate>0 KB/s</Current_Read_Rate>
+      <Current_Write_Rate>0 KB/s</Current_Write_Rate>
+      <Current_Disk_Activity>0 %</Current_Disk_Activity>
+    </Transfer_Rate_Information>
+    <Alerts>
+      <XN_17.09.2017_20_47_14>Temperature: 42 �C, Limit: 42 �C : Red temperature level reached.</XN_17.09.2017_20_47_14>
+      <XN_22.09.2017_0_10_10>Temperature: 42 �C, Limit: 42 �C : Red temperature level reached.</XN_22.09.2017_0_10_10>
+      <XN_18.06.2018_18_54_47>Temperature: 45 �C, Limit: 42 �C : Red temperature level reached.</XN_18.06.2018_18_54_47>
+      <XN_12.07.2020_15_07_32>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_12.07.2020_15_07_32>
+      <XN_13.07.2020_6_45_39>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_13.07.2020_6_45_39>
+      <XN_19.07.2020_3_02_32>Failure Predicted !!! Attribute : Spin Retry Count</XN_19.07.2020_3_02_32>
+      <XN_19.07.2020_6_45_44>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_19.07.2020_6_45_44>
+      <XN_19.07.2020_19_36_50>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_19.07.2020_19_36_50>
+      <XN_20.07.2020_11_40_26>Failure Predicted !!! Attribute : Spin Retry Count</XN_20.07.2020_11_40_26>
+      <XN_20.07.2020_17_55_43>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_20.07.2020_17_55_43>
+      <XN_21.07.2020_18_00_02>Failure Predicted !!! Attribute : Spin Retry Count</XN_21.07.2020_18_00_02>
+      <XN_21.07.2020_20_06_47>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_21.07.2020_20_06_47>
+      <XN_21.07.2020_23_55_03>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_21.07.2020_23_55_03>
+      <XN_22.07.2020_6_05_15>Failure Predicted !!! Attribute : Spin Retry Count</XN_22.07.2020_6_05_15>
+      <XN_22.07.2020_8_42_25>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_22.07.2020_8_42_25>
+      <XN_22.07.2020_10_54_14>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_22.07.2020_10_54_14>
+      <XN_22.07.2020_17_35_07>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_22.07.2020_17_35_07>
+      <XN_23.07.2020_2_57_53>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_23.07.2020_2_57_53>
+      <XN_23.07.2020_4_39_17>Failure Predicted !!! Attribute : Spin Retry Count</XN_23.07.2020_4_39_17>
+      <XN_23.07.2020_4_54_37>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_23.07.2020_4_54_37>
+      <XN_23.07.2020_18_41_12>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_23.07.2020_18_41_12>
+      <XN_24.07.2020_0_51_05>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_24.07.2020_0_51_05>
+      <XN_24.07.2020_1_42_03>Failure Predicted !!! Attribute : Spin Retry Count</XN_24.07.2020_1_42_03>
+      <XN_24.07.2020_3_13_19>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_24.07.2020_3_13_19>
+      <XN_24.07.2020_7_06_39>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_24.07.2020_7_06_39>
+      <XN_24.07.2020_21_10_54>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_24.07.2020_21_10_54>
+      <XN_26.07.2020_2_52_23>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_26.07.2020_2_52_23>
+      <XN_27.07.2020_1_26_12>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_27.07.2020_1_26_12>
+      <XN_27.07.2020_2_37_11>Failure Predicted !!! Attribute : Spin Retry Count</XN_27.07.2020_2_37_11>
+      <XN_27.07.2020_15_03_02>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_27.07.2020_15_03_02>
+      <XN_27.07.2020_16_55_06>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_27.07.2020_16_55_06>
+      <XN_28.07.2020_7_26_12>Failure Predicted !!! Attribute : Spin Retry Count</XN_28.07.2020_7_26_12>
+      <XN_28.07.2020_13_31_15>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_28.07.2020_13_31_15>
+      <XN_28.07.2020_15_43_08>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_28.07.2020_15_43_08>
+      <XN_01.08.2020_21_37_57>Failure Predicted !!! Attribute : Write Error Rate</XN_01.08.2020_21_37_57>
+      <XN_01.08.2020_22_28_39>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_01.08.2020_22_28_39>
+      <XN_01.08.2020_22_59_12>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_01.08.2020_22_59_12>
+      <XN_02.08.2020_0_20_17>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_02.08.2020_0_20_17>
+      <XN_02.08.2020_0_25_21>Failure Predicted !!! Attribute : Spin Retry Count</XN_02.08.2020_0_25_21>
+      <XN_02.08.2020_0_40_34>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_02.08.2020_0_40_34>
+      <XN_02.08.2020_21_12_36>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_02.08.2020_21_12_36>
+      <XN_03.08.2020_1_16_04>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_03.08.2020_1_16_04>
+      <XN_03.08.2020_4_54_04>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_03.08.2020_4_54_04>
+      <XN_03.08.2020_5_59_59>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_03.08.2020_5_59_59>
+      <XN_03.08.2020_7_46_45>Failure Predicted !!! Attribute : Spin Retry Count</XN_03.08.2020_7_46_45>
+      <XN_03.08.2020_16_19_23>Failure Predicted !!! Attribute : Write Error Rate</XN_03.08.2020_16_19_23>
+      <XN_04.08.2020_0_05_23>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_04.08.2020_0_05_23>
+      <XN_04.08.2020_1_26_32>Failure Predicted !!! Attribute : Spin Retry Count</XN_04.08.2020_1_26_32>
+      <XN_04.08.2020_9_28_56>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_04.08.2020_9_28_56>
+      <XN_04.08.2020_10_45_02>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_04.08.2020_10_45_02>
+      <XN_05.08.2020_0_10_11>Failure Predicted !!! Attribute : Spin Retry Count</XN_05.08.2020_0_10_11>
+      <XN_05.08.2020_0_20_18>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_05.08.2020_0_20_18>
+      <XN_05.08.2020_8_06_47>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_05.08.2020_8_06_47>
+      <XN_05.08.2020_20_07_10>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_05.08.2020_20_07_10>
+      <XN_05.08.2020_21_53_43>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_05.08.2020_21_53_43>
+      <XN_06.08.2020_0_10_12>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_06.08.2020_0_10_12>
+      <XN_06.08.2020_0_25_24>Failure Predicted !!! Attribute : Spin Retry Count</XN_06.08.2020_0_25_24>
+      <XN_06.08.2020_0_50_45>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_06.08.2020_0_50_45>
+      <XN_06.08.2020_8_17_42>Failure Predicted !!! Attribute : Write Error Rate</XN_06.08.2020_8_17_42>
+      <XN_06.08.2020_17_45_58>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_06.08.2020_17_45_58>
+      <XN_07.08.2020_11_29_33>Failure Predicted !!! Attribute : Spin Retry Count</XN_07.08.2020_11_29_33>
+      <XN_07.08.2020_11_34_37>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_07.08.2020_11_34_37>
+      <XN_07.08.2020_16_28_41>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_07.08.2020_16_28_41>
+      <XN_08.08.2020_5_34_38>Failure Predicted !!! Attribute : Spin Retry Count</XN_08.08.2020_5_34_38>
+      <XN_08.08.2020_11_24_33>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_08.08.2020_11_24_33>
+      <XN_09.08.2020_0_40_34>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_09.08.2020_0_40_34>
+      <XN_09.08.2020_17_44_43>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_09.08.2020_17_44_43>
+      <XN_10.08.2020_3_48_12>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_10.08.2020_3_48_12>
+      <XN_10.08.2020_7_51_34>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_10.08.2020_7_51_34>
+      <XN_10.08.2020_9_43_06>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_10.08.2020_9_43_06>
+      <XN_10.08.2020_12_20_16>Failure Predicted !!! Attribute : Spin Retry Count</XN_10.08.2020_12_20_16>
+      <XN_11.08.2020_7_56_35>Failure Predicted !!! Attribute : Spin Retry Count</XN_11.08.2020_7_56_35>
+      <XN_11.08.2020_8_01_39>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_11.08.2020_8_01_39>
+      <XN_11.08.2020_11_14_19>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_11.08.2020_11_14_19>
+      <XN_12.08.2020_5_29_34>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_12.08.2020_5_29_34>
+      <XN_12.08.2020_17_39_41>Failure Predicted !!! Attribute : Spin Retry Count</XN_12.08.2020_17_39_41>
+      <XN_12.08.2020_21_27_50>Failure Predicted !!! Attribute : Write Error Rate</XN_12.08.2020_21_27_50>
+      <XN_13.08.2020_2_32_07>Failure Predicted !!! Attribute : Spin Retry Count</XN_13.08.2020_2_32_07>
+      <XN_13.08.2020_8_42_15>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_13.08.2020_8_42_15>
+      <XN_14.08.2020_6_45_37>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_14.08.2020_6_45_37>
+      <XN_21.08.2020_21_12_35>Failure Predicted !!! Attribute : Spin Retry Count</XN_21.08.2020_21_12_35>
+      <XN_21.08.2020_21_17_41>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_21.08.2020_21_17_41>
+      <XN_21.08.2020_22_54_01>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_21.08.2020_22_54_01>
+      <XN_22.08.2020_1_31_17>Failure Predicted !!! Attribute : Spin Retry Count</XN_22.08.2020_1_31_17>
+      <XN_22.08.2020_4_54_05>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_22.08.2020_4_54_05>
+      <XN_22.08.2020_5_14_22>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_22.08.2020_5_14_22>
+      <XN_22.08.2020_8_52_27>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_22.08.2020_8_52_27>
+      <XN_23.08.2020_16_13_30>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_23.08.2020_16_13_30>
+      <XN_23.08.2020_16_33_46>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_23.08.2020_16_33_46>
+      <XN_23.08.2020_17_44_48>Failure Predicted !!! Attribute : Spin Retry Count</XN_23.08.2020_17_44_48>
+      <XN_23.08.2020_22_38_54>Failure Predicted !!! Attribute : Seek Error Rate</XN_23.08.2020_22_38_54>
+      <XN_24.08.2020_0_05_05>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_24.08.2020_0_05_05>
+      <XN_24.08.2020_11_20_33>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_24.08.2020_11_20_33>
+      <XN_24.08.2020_12_01_06>Failure Predicted !!! Attribute : Spin Retry Count</XN_24.08.2020_12_01_06>
+      <XN_24.08.2020_14_13_29>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_24.08.2020_14_13_29>
+      <XN_25.08.2020_4_44_52>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_25.08.2020_4_44_52>
+      <XN_25.08.2020_15_21_44>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_25.08.2020_15_21_44>
+      <XN_25.08.2020_22_29_56>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_25.08.2020_22_29_56>
+      <XN_26.08.2020_3_08_55>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_26.08.2020_3_08_55>
+      <XN_26.08.2020_3_19_05>Failure Predicted !!! Attribute : Spin Retry Count</XN_26.08.2020_3_19_05>
+      <XN_26.08.2020_8_30_17>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_26.08.2020_8_30_17>
+      <XN_26.08.2020_22_16_05>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_26.08.2020_22_16_05>
+      <XN_27.08.2020_0_15_18>Failure Predicted !!! Attribute : Spin Retry Count</XN_27.08.2020_0_15_18>
+      <XN_27.08.2020_5_56_46>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_27.08.2020_5_56_46>
+      <XN_27.08.2020_7_38_59>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_27.08.2020_7_38_59>
+      <XN_27.08.2020_8_50_32>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_27.08.2020_8_50_32>
+      <XN_28.08.2020_0_10_12>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_28.08.2020_0_10_12>
+      <XN_28.08.2020_13_36_23>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_28.08.2020_13_36_23>
+      <XN_28.08.2020_18_57_57>Failure Predicted !!! Attribute : Write Error Rate</XN_28.08.2020_18_57_57>
+      <XN_28.08.2020_19_28_29>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_28.08.2020_19_28_29>
+      <XN_28.08.2020_21_15_34>Failure Predicted !!! Attribute : Spin Retry Count</XN_28.08.2020_21_15_34>
+      <XN_29.08.2020_0_10_13>Failure Predicted !!! Attribute : Seek Error Rate</XN_29.08.2020_0_10_13>
+      <XN_29.08.2020_0_15_19>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_29.08.2020_0_15_19>
+      <XN_29.08.2020_2_12_30>Failure Predicted !!! Attribute : Spin Retry Count</XN_29.08.2020_2_12_30>
+      <XN_29.08.2020_3_18_39>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_29.08.2020_3_18_39>
+      <XN_29.08.2020_3_23_44>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_29.08.2020_3_23_44>
+      <XN_29.08.2020_12_08_49>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_29.08.2020_12_08_49>
+      <XN_30.08.2020_1_16_17>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_30.08.2020_1_16_17>
+      <XN_30.08.2020_1_26_27>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_30.08.2020_1_26_27>
+      <XN_30.08.2020_7_07_47>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_30.08.2020_7_07_47>
+      <XN_30.08.2020_8_13_58>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_30.08.2020_8_13_58>
+      <XN_30.08.2020_12_54_29>Failure Predicted !!! Attribute : Spin Retry Count</XN_30.08.2020_12_54_29>
+      <XN_30.08.2020_16_18_15>Failure Predicted !!! Attribute : Write Error Rate</XN_30.08.2020_16_18_15>
+      <XN_31.08.2020_0_20_24>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_31.08.2020_0_20_24>
+      <XN_31.08.2020_1_11_15>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_31.08.2020_1_11_15>
+      <XN_31.08.2020_1_16_20>Failure Predicted !!! Attribute : Spin Retry Count</XN_31.08.2020_1_16_20>
+      <XN_31.08.2020_1_57_02>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_31.08.2020_1_57_02>
+      <XN_31.08.2020_2_47_52>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_31.08.2020_2_47_52>
+      <XN_31.08.2020_14_36_16>Failure Predicted !!! Attribute : Seek Error Rate</XN_31.08.2020_14_36_16>
+      <XN_01.09.2020_1_06_07>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_01.09.2020_1_06_07>
+      <XN_01.09.2020_1_11_11>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_01.09.2020_1_11_11>
+      <XN_01.09.2020_1_31_31>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_01.09.2020_1_31_31>
+      <XN_01.09.2020_8_09_30>Failure Predicted !!! Attribute : Seek Error Rate</XN_01.09.2020_8_09_30>
+      <XN_02.09.2020_1_41_55>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_02.09.2020_1_41_55>
+      <XN_02.09.2020_1_52_06>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_02.09.2020_1_52_06>
+      <XN_02.09.2020_10_12_19>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_02.09.2020_10_12_19>
+      <XN_02.09.2020_16_09_22>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_02.09.2020_16_09_22>
+      <XN_03.09.2020_5_56_53>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_03.09.2020_5_56_53>
+      <XN_03.09.2020_9_05_42>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_03.09.2020_9_05_42>
+      <XN_03.09.2020_14_57_32>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_03.09.2020_14_57_32>
+      <XN_03.09.2020_18_42_04>Failure Predicted !!! Attribute : Spin Retry Count</XN_03.09.2020_18_42_04>
+      <XN_04.09.2020_12_09_22>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_04.09.2020_12_09_22>
+      <XN_04.09.2020_21_56_16>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_04.09.2020_21_56_16>
+      <XN_05.09.2020_6_53_29>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_05.09.2020_6_53_29>
+      <XN_05.09.2020_17_26_02>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_05.09.2020_17_26_02>
+      <XN_05.09.2020_21_05_34>Failure Predicted !!! Attribute : Spin Retry Count</XN_05.09.2020_21_05_34>
+      <XN_06.09.2020_5_06_13>Failure Predicted !!! Attribute : Spin Retry Count</XN_06.09.2020_5_06_13>
+      <XN_06.09.2020_12_20_02>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_06.09.2020_12_20_02>
+      <XN_06.09.2020_17_36_20>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_06.09.2020_17_36_20>
+      <XN_06.09.2020_19_13_11>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_06.09.2020_19_13_11>
+      <XN_07.09.2020_8_30_25>Failure Predicted !!! Attribute : Write Error Rate</XN_07.09.2020_8_30_25>
+      <XN_07.09.2020_21_30_47>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_07.09.2020_21_30_47>
+      <XN_08.09.2020_6_48_23>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_08.09.2020_6_48_23>
+      <XN_08.09.2020_10_27_41>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_08.09.2020_10_27_41>
+      <XN_08.09.2020_11_34_05>Failure Predicted !!! Attribute : Spin Retry Count</XN_08.09.2020_11_34_05>
+      <XN_08.09.2020_16_09_03>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_08.09.2020_16_09_03>
+      <XN_09.09.2020_0_55_59>Failure Predicted !!! Attribute : Spin Retry Count</XN_09.09.2020_0_55_59>
+      <XN_09.09.2020_1_01_03>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_09.09.2020_1_01_03>
+      <XN_09.09.2020_1_36_36>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_09.09.2020_1_36_36>
+      <XN_09.09.2020_11_12_46>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_09.09.2020_11_12_46>
+      <XN_10.09.2020_16_04_25>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_10.09.2020_16_04_25>
+      <XN_11.09.2020_0_05_06>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_11.09.2020_0_05_06>
+      <XN_11.09.2020_1_46_55>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_11.09.2020_1_46_55>
+      <XN_11.09.2020_2_02_13>Failure Predicted !!! Attribute : Spin Retry Count</XN_11.09.2020_2_02_13>
+      <XN_11.09.2020_2_53_12>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_11.09.2020_2_53_12>
+      <XN_11.09.2020_4_29_55>Failure Predicted !!! Attribute : Write Error Rate</XN_11.09.2020_4_29_55>
+      <XN_12.09.2020_0_30_40>Failure Predicted !!! Attribute : Spin Retry Count</XN_12.09.2020_0_30_40>
+      <XN_12.09.2020_0_40_53>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_12.09.2020_0_40_53>
+      <XN_12.09.2020_2_22_52>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_12.09.2020_2_22_52>
+      <XN_14.09.2020_18_34_52>Failure Predicted !!! Attribute : Spin Retry Count</XN_14.09.2020_18_34_52>
+      <XN_16.09.2020_12_24_53>Failure Predicted !!! Attribute : Spin Retry Count</XN_16.09.2020_12_24_53>
+      <XN_17.09.2020_13_01_29>Failure Predicted !!! Attribute : Spin Retry Count</XN_17.09.2020_13_01_29>
+      <XN_18.09.2020_1_47_45>Failure Predicted !!! Attribute : Spin Retry Count</XN_18.09.2020_1_47_45>
+      <XN_13.10.2020_21_10_37>Failure Predicted !!! Attribute : Write Error Rate</XN_13.10.2020_21_10_37>
+      <XN_14.10.2020_3_48_10>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_14.10.2020_3_48_10>
+      <XN_14.10.2020_17_39_57>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_14.10.2020_17_39_57>
+      <XN_15.10.2020_4_18_34>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_15.10.2020_4_18_34>
+      <XN_15.10.2020_17_50_04>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_15.10.2020_17_50_04>
+      <XN_15.10.2020_21_23_26>Failure Predicted !!! Attribute : Spin Retry Count</XN_15.10.2020_21_23_26>
+      <XN_16.10.2020_6_31_08>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_16.10.2020_6_31_08>
+      <XN_16.10.2020_6_36_12>Failure Predicted !!! Attribute : Spin Retry Count</XN_16.10.2020_6_36_12>
+      <XN_16.10.2020_7_57_19>Failure Predicted !!! Attribute : Write Error Rate</XN_16.10.2020_7_57_19>
+      <XN_16.10.2020_9_33_39>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_16.10.2020_9_33_39>
+      <XN_17.10.2020_1_00_51>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_17.10.2020_1_00_51>
+      <XN_17.10.2020_7_41_23>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_17.10.2020_7_41_23>
+      <XN_24.10.2020_9_37_59>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_24.10.2020_9_37_59>
+      <XN_24.10.2020_11_19_23>Failure Predicted !!! Attribute : Write Error Rate</XN_24.10.2020_11_19_23>
+      <XN_25.10.2020_3_08_26>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_25.10.2020_3_08_26>
+      <XN_26.10.2020_1_56_37>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_26.10.2020_1_56_37>
+      <XN_27.10.2020_7_00_49>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_27.10.2020_7_00_49>
+      <XN_27.10.2020_22_03_17>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_27.10.2020_22_03_17>
+      <XN_28.10.2020_0_40_34>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_28.10.2020_0_40_34>
+      <XN_28.10.2020_21_38_02>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_28.10.2020_21_38_02>
+      <XN_29.10.2020_2_57_27>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_29.10.2020_2_57_27>
+      <XN_29.10.2020_10_59_06>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_29.10.2020_10_59_06>
+      <XN_31.10.2020_11_24_30>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_31.10.2020_11_24_30>
+      <XN_31.10.2020_11_29_34>Failure Predicted !!! Attribute : Write Error Rate</XN_31.10.2020_11_29_34>
+      <XN_31.10.2020_17_50_59>Failure Predicted !!! Attribute : Spin Retry Count</XN_31.10.2020_17_50_59>
+      <XN_31.10.2020_19_01_58>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_31.10.2020_19_01_58>
+      <XN_01.11.2020_3_02_32>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_01.11.2020_3_02_32>
+      <XN_01.11.2020_3_17_44>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_01.11.2020_3_17_44>
+      <XN_08.11.2020_9_17_47>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_08.11.2020_9_17_47>
+      <XN_08.11.2020_14_47_25>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_08.11.2020_14_47_25>
+      <XN_08.11.2020_16_44_02>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_08.11.2020_16_44_02>
+      <XN_11.11.2020_7_46_27>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_11.11.2020_7_46_27>
+      <XN_11.11.2020_16_13_27>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_11.11.2020_16_13_27>
+      <XN_21.11.2020_13_11_08>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_21.11.2020_13_11_08>
+      <XN_16.12.2020_1_31_16>Failure Predicted !!! Attribute : Spin Retry Count</XN_16.12.2020_1_31_16>
+      <XN_17.12.2020_22_43_56>Failure Predicted !!! Attribute : Spin Retry Count</XN_17.12.2020_22_43_56>
+      <XN_18.12.2020_15_58_20>Failure Predicted !!! Attribute : Spin Retry Count</XN_18.12.2020_15_58_20>
+      <XN_23.12.2020_21_37_56>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_23.12.2020_21_37_56>
+      <XN_24.12.2020_1_26_12>Failure Predicted !!! Attribute : Spin Retry Count</XN_24.12.2020_1_26_12>
+      <XN_24.12.2020_1_31_16>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_24.12.2020_1_31_16>
+      <XN_25.12.2020_0_05_05>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_25.12.2020_0_05_05>
+      <XN_25.12.2020_0_25_22>Failure Predicted !!! Attribute : Spin Retry Count</XN_25.12.2020_0_25_22>
+      <XN_25.12.2020_8_47_35>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_25.12.2020_8_47_35>
+      <XN_25.12.2020_20_42_33>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_25.12.2020_20_42_33>
+      <XN_26.12.2020_2_37_11>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_26.12.2020_2_37_11>
+      <XN_26.12.2020_2_42_16>Failure Predicted !!! Attribute : Spin Retry Count</XN_26.12.2020_2_42_16>
+      <XN_26.12.2020_11_24_31>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_26.12.2020_11_24_31>
+      <XN_26.12.2020_20_22_08>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_26.12.2020_20_22_08>
+      <XN_27.12.2020_1_11_24>Failure Predicted !!! Attribute : Spin Retry Count</XN_27.12.2020_1_11_24>
+      <XN_27.12.2020_3_03_19>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_27.12.2020_3_03_19>
+      <XN_27.12.2020_6_11_12>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_27.12.2020_6_11_12>
+      <XN_27.12.2020_12_38_09>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_27.12.2020_12_38_09>
+      <XN_28.12.2020_1_31_16>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_28.12.2020_1_31_16>
+      <XN_28.12.2020_6_51_03>Failure Predicted !!! Attribute : Spin Retry Count</XN_28.12.2020_6_51_03>
+      <XN_28.12.2020_13_57_14>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_28.12.2020_13_57_14>
+      <XN_28.12.2020_15_23_44>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_28.12.2020_15_23_44>
+      <XN_29.12.2020_2_07_29>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_29.12.2020_2_07_29>
+      <XN_29.12.2020_2_22_42>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_29.12.2020_2_22_42>
+      <XN_29.12.2020_2_37_54>Failure Predicted !!! Attribute : Spin Retry Count</XN_29.12.2020_2_37_54>
+      <XN_29.12.2020_14_38_53>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_29.12.2020_14_38_53>
+      <XN_30.12.2020_2_37_11>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_30.12.2020_2_37_11>
+      <XN_30.12.2020_2_57_28>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_30.12.2020_2_57_28>
+      <XN_30.12.2020_16_54_13>Failure Predicted !!! Attribute : Spin Retry Count</XN_30.12.2020_16_54_13>
+      <XN_31.12.2020_2_57_28>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_31.12.2020_2_57_28>
+      <XN_31.12.2020_12_30_23>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_31.12.2020_12_30_23>
+      <XN_31.12.2020_14_32_33>Failure Predicted !!! Attribute : Spin Retry Count</XN_31.12.2020_14_32_33>
+      <XN_31.12.2020_14_52_53>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_31.12.2020_14_52_53>
+      <XN_31.12.2020_15_53_44>Failure Predicted !!! Attribute : Write Error Rate</XN_31.12.2020_15_53_44>
+      <XN_01.01.2021_2_18_00>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_01.01.2021_2_18_00>
+      <XN_01.01.2021_2_33_21>Failure Predicted !!! Attribute : Spin Retry Count</XN_01.01.2021_2_33_21>
+      <XN_01.01.2021_3_34_14>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_01.01.2021_3_34_14>
+      <XN_02.01.2021_0_50_43>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_02.01.2021_0_50_43>
+      <XN_02.01.2021_4_03_36>Failure Predicted !!! Attribute : Spin Retry Count</XN_02.01.2021_4_03_36>
+      <XN_02.01.2021_7_47_40>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_02.01.2021_7_47_40>
+      <XN_02.01.2021_21_11_23>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_02.01.2021_21_11_23>
+      <XN_03.01.2021_2_11_41>Failure Predicted !!! Attribute : Spin Retry Count</XN_03.01.2021_2_11_41>
+      <XN_03.01.2021_5_24_48>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_03.01.2021_5_24_48>
+      <XN_03.01.2021_7_26_38>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_03.01.2021_7_26_38>
+      <XN_03.01.2021_23_25_25>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_03.01.2021_23_25_25>
+      <XN_04.01.2021_3_38_01>Failure Predicted !!! Attribute : Spin Retry Count</XN_04.01.2021_3_38_01>
+      <XN_04.01.2021_3_43_05>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_04.01.2021_3_43_05>
+      <XN_04.01.2021_5_55_08>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_04.01.2021_5_55_08>
+      <XN_04.01.2021_17_19_45>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_04.01.2021_17_19_45>
+      <XN_04.01.2021_19_32_45>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_04.01.2021_19_32_45>
+      <XN_05.01.2021_0_20_18>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_05.01.2021_0_20_18>
+      <XN_05.01.2021_1_46_29>Failure Predicted !!! Attribute : Spin Retry Count</XN_05.01.2021_1_46_29>
+      <XN_05.01.2021_3_53_40>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_05.01.2021_3_53_40>
+      <XN_05.01.2021_4_29_15>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_05.01.2021_4_29_15>
+      <XN_06.01.2021_3_32_57>Failure Predicted !!! Attribute : Spin Retry Count</XN_06.01.2021_3_32_57>
+      <XN_06.01.2021_13_46_55>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_06.01.2021_13_46_55>
+      <XN_06.01.2021_19_26_56>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_06.01.2021_19_26_56>
+      <XN_07.01.2021_1_36_21>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_07.01.2021_1_36_21>
+      <XN_07.01.2021_3_32_57>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_07.01.2021_3_32_57>
+      <XN_07.01.2021_4_28_43>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_07.01.2021_4_28_43>
+      <XN_07.01.2021_10_33_46>Failure Predicted !!! Attribute : Spin Retry Count</XN_07.01.2021_10_33_46>
+      <XN_08.01.2021_0_00_00>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_08.01.2021_0_00_00>
+      <XN_08.01.2021_1_31_16>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_08.01.2021_1_31_16>
+      <XN_08.01.2021_2_22_13>Failure Predicted !!! Attribute : Spin Retry Count</XN_08.01.2021_2_22_13>
+      <XN_08.01.2021_4_08_41>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_08.01.2021_4_08_41>
+      <XN_08.01.2021_17_05_49>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_08.01.2021_17_05_49>
+      <XN_09.01.2021_5_24_33>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_09.01.2021_5_24_33>
+      <XN_09.01.2021_7_51_34>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_09.01.2021_7_51_34>
+      <XN_09.01.2021_8_01_43>Failure Predicted !!! Attribute : Spin Retry Count</XN_09.01.2021_8_01_43>
+      <XN_09.01.2021_19_21_07>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_09.01.2021_19_21_07>
+      <XN_10.01.2021_1_03_22>Failure Predicted !!! Attribute : Spin Retry Count</XN_10.01.2021_1_03_22>
+      <XN_10.01.2021_3_52_39>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_10.01.2021_3_52_39>
+      <XN_10.01.2021_17_04_10>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_10.01.2021_17_04_10>
+      <XN_11.01.2021_2_22_05>Failure Predicted !!! Attribute : Spin Retry Count</XN_11.01.2021_2_22_05>
+      <XN_11.01.2021_3_33_04>Failure Predicted !!! Attribute : Write Error Rate</XN_11.01.2021_3_33_04>
+      <XN_11.01.2021_4_38_59>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_11.01.2021_4_38_59>
+      <XN_11.01.2021_16_19_08>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_11.01.2021_16_19_08>
+      <XN_12.01.2021_0_05_04>Failure Predicted !!! Attribute : Spin Retry Count</XN_12.01.2021_0_05_04>
+      <XN_12.01.2021_0_20_17>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_12.01.2021_0_20_17>
+      <XN_12.01.2021_0_30_25>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_12.01.2021_0_30_25>
+      <XN_12.01.2021_2_22_26>Failure Predicted !!! Attribute : Seek Error Rate</XN_12.01.2021_2_22_26>
+      <XN_12.01.2021_9_43_32>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_12.01.2021_9_43_32>
+      <XN_12.01.2021_10_59_35>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_12.01.2021_10_59_35>
+      <XN_13.01.2021_1_05_55>Failure Predicted !!! Attribute : Spin Retry Count</XN_13.01.2021_1_05_55>
+      <XN_13.01.2021_19_01_08>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_13.01.2021_19_01_08>
+      <XN_13.01.2021_19_06_12>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_13.01.2021_19_06_12>
+      <XN_14.01.2021_2_42_28>Failure Predicted !!! Attribute : Spin Retry Count</XN_14.01.2021_2_42_28>
+      <XN_14.01.2021_14_17_43>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_14.01.2021_14_17_43>
+      <XN_15.01.2021_12_20_16>Failure Predicted !!! Attribute : Spin Retry Count</XN_15.01.2021_12_20_16>
+      <XN_15.01.2021_17_09_15>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_15.01.2021_17_09_15>
+      <XN_16.01.2021_3_58_21>Failure Predicted !!! Attribute : Spin Retry Count</XN_16.01.2021_3_58_21>
+      <XN_16.01.2021_4_49_03>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_16.01.2021_4_49_03>
+      <XN_16.01.2021_6_25_27>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_16.01.2021_6_25_27>
+      <XN_16.01.2021_21_03_35>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_16.01.2021_21_03_35>
+      <XN_17.01.2021_6_15_37>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_17.01.2021_6_15_37>
+      <XN_17.01.2021_8_27_34>Failure Predicted !!! Attribute : Spin Retry Count</XN_17.01.2021_8_27_34>
+      <XN_17.01.2021_13_36_50>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_17.01.2021_13_36_50>
+      <XN_18.01.2021_0_20_17>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_18.01.2021_0_20_17>
+      <XN_18.01.2021_1_00_51>Failure Predicted !!! Attribute : Spin Retry Count</XN_18.01.2021_1_00_51>
+      <XN_18.01.2021_9_54_04>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_18.01.2021_9_54_04>
+      <XN_18.01.2021_15_59_16>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_18.01.2021_15_59_16>
+      <XN_19.01.2021_3_33_11>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_19.01.2021_3_33_11>
+      <XN_19.01.2021_5_14_36>Failure Predicted !!! Attribute : Spin Retry Count</XN_19.01.2021_5_14_36>
+      <XN_19.01.2021_12_10_47>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_19.01.2021_12_10_47>
+      <XN_19.01.2021_15_44_41>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_19.01.2021_15_44_41>
+      <XN_20.01.2021_0_41_41>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_20.01.2021_0_41_41>
+      <XN_20.01.2021_6_16_18>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_20.01.2021_6_16_18>
+      <XN_20.01.2021_6_56_52>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_20.01.2021_6_56_52>
+      <XN_20.01.2021_13_37_45>Failure Predicted !!! Attribute : Spin Retry Count</XN_20.01.2021_13_37_45>
+      <XN_20.01.2021_14_08_13>Failure Predicted !!! Attribute : Write Error Rate</XN_20.01.2021_14_08_13>
+      <XN_21.01.2021_16_28_39>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_21.01.2021_16_28_39>
+      <XN_21.01.2021_23_39_56>Failure Predicted !!! Attribute : Spin Retry Count</XN_21.01.2021_23_39_56>
+      <XN_22.01.2021_1_36_38>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_22.01.2021_1_36_38>
+      <XN_22.01.2021_13_16_36>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_22.01.2021_13_16_36>
+      <XN_22.01.2021_14_43_06>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_22.01.2021_14_43_06>
+      <XN_22.01.2021_15_59_09>Failure Predicted !!! Attribute : Spin Retry Count</XN_22.01.2021_15_59_09>
+      <XN_23.01.2021_1_07_49>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_23.01.2021_1_07_49>
+      <XN_23.01.2021_2_49_13>Failure Predicted !!! Attribute : Spin Retry Count</XN_23.01.2021_2_49_13>
+      <XN_23.01.2021_10_25_31>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_23.01.2021_10_25_31>
+      <XN_24.01.2021_3_28_29>Failure Predicted !!! Attribute : Spin Retry Count</XN_24.01.2021_3_28_29>
+      <XN_24.01.2021_4_19_19>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_24.01.2021_4_19_19>
+      <XN_24.01.2021_4_54_49>Failure Predicted !!! Attribute : Write Error Rate</XN_24.01.2021_4_54_49>
+      <XN_24.01.2021_13_11_41>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_24.01.2021_13_11_41>
+      <XN_24.01.2021_18_11_37>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_24.01.2021_18_11_37>
+      <XN_24.01.2021_20_28_39>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_24.01.2021_20_28_39>
+      <XN_25.01.2021_13_31_13>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_25.01.2021_13_31_13>
+      <XN_25.01.2021_19_26_15>Failure Predicted !!! Attribute : Spin Retry Count</XN_25.01.2021_19_26_15>
+      <XN_25.01.2021_22_59_40>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_25.01.2021_22_59_40>
+      <XN_26.01.2021_19_26_29>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_26.01.2021_19_26_29>
+      <XN_26.01.2021_22_19_53>Failure Predicted !!! Attribute : Spin Retry Count</XN_26.01.2021_22_19_53>
+      <XN_27.01.2021_2_37_23>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_27.01.2021_2_37_23>
+      <XN_27.01.2021_13_46_48>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_27.01.2021_13_46_48>
+      <XN_27.01.2021_14_37_32>Failure Predicted !!! Attribute : Spin Retry Count</XN_27.01.2021_14_37_32>
+      <XN_27.01.2021_18_10_55>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_27.01.2021_18_10_55>
+      <XN_27.01.2021_21_28_41>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_27.01.2021_21_28_41>
+      <XN_28.01.2021_1_16_28>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_28.01.2021_1_16_28>
+      <XN_28.01.2021_1_52_01>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_28.01.2021_1_52_01>
+      <XN_28.01.2021_7_26_40>Failure Predicted !!! Attribute : Spin Retry Count</XN_28.01.2021_7_26_40>
+      <XN_29.01.2021_0_55_47>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_29.01.2021_0_55_47>
+      <XN_29.01.2021_2_02_23>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_29.01.2021_2_02_23>
+      <XN_29.01.2021_13_48_14>Failure Predicted !!! Attribute : Spin Retry Count</XN_29.01.2021_13_48_14>
+      <XN_29.01.2021_14_03_27>Failure Predicted !!! Attribute : Write Error Rate</XN_29.01.2021_14_03_27>
+      <XN_29.01.2021_18_06_48>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_29.01.2021_18_06_48>
+      <XN_30.01.2021_0_35_30>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_30.01.2021_0_35_30>
+      <XN_30.01.2021_1_36_22>Failure Predicted !!! Attribute : Spin Retry Count</XN_30.01.2021_1_36_22>
+      <XN_30.01.2021_5_40_02>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_30.01.2021_5_40_02>
+      <XN_31.01.2021_0_20_17>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_31.01.2021_0_20_17>
+      <XN_31.01.2021_3_17_55>Failure Predicted !!! Attribute : Spin Retry Count</XN_31.01.2021_3_17_55>
+      <XN_31.01.2021_5_09_34>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_31.01.2021_5_09_34>
+      <XN_31.01.2021_17_25_04>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_31.01.2021_17_25_04>
+      <XN_01.02.2021_3_02_43>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_01.02.2021_3_02_43>
+      <XN_01.02.2021_6_51_15>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_01.02.2021_6_51_15>
+      <XN_01.02.2021_11_40_14>Failure Predicted !!! Attribute : Spin Retry Count</XN_01.02.2021_11_40_14>
+      <XN_01.02.2021_16_29_24>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_01.02.2021_16_29_24>
+      <XN_01.02.2021_16_34_28>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_01.02.2021_16_34_28>
+      <XN_01.02.2021_22_14_24>Failure Predicted !!! Attribute : Write Error Rate</XN_01.02.2021_22_14_24>
+      <XN_02.02.2021_0_29_21>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_02.02.2021_0_29_21>
+      <XN_02.02.2021_7_16_50>Failure Predicted !!! Attribute : Spin Retry Count</XN_02.02.2021_7_16_50>
+      <XN_02.02.2021_11_50_57>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_02.02.2021_11_50_57>
+      <XN_02.02.2021_13_17_08>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_02.02.2021_13_17_08>
+      <XN_03.02.2021_0_45_44>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_03.02.2021_0_45_44>
+      <XN_03.02.2021_7_11_42>Failure Predicted !!! Attribute : Spin Retry Count</XN_03.02.2021_7_11_42>
+      <XN_04.02.2021_0_19_12>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_04.02.2021_0_19_12>
+      <XN_04.02.2021_0_39_29>Failure Predicted !!! Attribute : Spin Retry Count</XN_04.02.2021_0_39_29>
+      <XN_05.02.2021_0_50_43>Failure Predicted !!! Attribute : Spin Retry Count</XN_05.02.2021_0_50_43>
+      <XN_05.02.2021_7_26_46>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_05.02.2021_7_26_46>
+      <XN_06.02.2021_0_45_38>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_06.02.2021_0_45_38>
+      <XN_06.02.2021_3_02_47>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_06.02.2021_3_02_47>
+      <XN_06.02.2021_4_54_31>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_06.02.2021_4_54_31>
+      <XN_06.02.2021_6_21_19>Failure Predicted !!! Attribute : Spin Retry Count</XN_06.02.2021_6_21_19>
+      <XN_07.02.2021_2_52_28>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_07.02.2021_2_52_28>
+      <XN_07.02.2021_2_57_32>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_07.02.2021_2_57_32>
+      <XN_07.02.2021_6_45_57>Failure Predicted !!! Attribute : Spin Retry Count</XN_07.02.2021_6_45_57>
+      <XN_07.02.2021_8_57_52>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_07.02.2021_8_57_52>
+      <XN_07.02.2021_9_33_35>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_07.02.2021_9_33_35>
+      <XN_07.02.2021_13_07_08>Failure Predicted !!! Attribute : Seek Error Rate</XN_07.02.2021_13_07_08>
+      <XN_09.02.2021_3_22_55>Failure Predicted !!! Attribute : Spin Retry Count</XN_09.02.2021_3_22_55>
+      <XN_12.02.2021_15_48_30>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_12.02.2021_15_48_30>
+      <XN_12.02.2021_16_03_43>Failure Predicted !!! Attribute : Spin Retry Count</XN_12.02.2021_16_03_43>
+      <XN_13.02.2021_11_39_40>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_13.02.2021_11_39_40>
+      <XN_13.02.2021_19_26_12>Failure Predicted !!! Attribute : Spin Retry Count</XN_13.02.2021_19_26_12>
+      <XN_13.02.2021_19_31_16>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_13.02.2021_19_31_16>
+      <XN_14.02.2021_1_26_12>Failure Predicted !!! Attribute : Spin Retry Count</XN_14.02.2021_1_26_12>
+      <XN_14.02.2021_2_06_46>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_14.02.2021_2_06_46>
+      <XN_14.02.2021_12_20_51>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_14.02.2021_12_20_51>
+      <XN_16.02.2021_3_48_10>Failure Predicted !!! Attribute : Spin Retry Count</XN_16.02.2021_3_48_10>
+      <XN_16.02.2021_17_04_09>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_16.02.2021_17_04_09>
+      <XN_17.02.2021_3_38_14>Failure Predicted !!! Attribute : Spin Retry Count</XN_17.02.2021_3_38_14>
+      <XN_17.02.2021_4_08_40>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_17.02.2021_4_08_40>
+      <XN_17.02.2021_14_32_34>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_17.02.2021_14_32_34>
+      <XN_18.02.2021_0_20_47>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_18.02.2021_0_20_47>
+      <XN_18.02.2021_0_25_51>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_18.02.2021_0_25_51>
+      <XN_18.02.2021_1_11_30>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_18.02.2021_1_11_30>
+      <XN_18.02.2021_3_38_49>Failure Predicted !!! Attribute : Spin Retry Count</XN_18.02.2021_3_38_49>
+      <XN_19.02.2021_0_20_21>Failure Predicted !!! Attribute : Spin Retry Count</XN_19.02.2021_0_20_21>
+      <XN_19.02.2021_1_00_55>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_19.02.2021_1_00_55>
+      <XN_19.02.2021_9_35_32>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_19.02.2021_9_35_32>
+      <XN_19.02.2021_11_37_22>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_19.02.2021_11_37_22>
+      <XN_19.02.2021_17_43_08>Failure Predicted !!! Attribute : Write Error Rate</XN_19.02.2021_17_43_08>
+      <XN_20.02.2021_0_35_45>Failure Predicted !!! Attribute : Spin Retry Count</XN_20.02.2021_0_35_45>
+      <XN_20.02.2021_1_16_29>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_20.02.2021_1_16_29>
+      <XN_20.02.2021_1_21_33>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_20.02.2021_1_21_33>
+      <XN_20.02.2021_4_14_05>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_20.02.2021_4_14_05>
+      <XN_20.02.2021_9_18_56>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_20.02.2021_9_18_56>
+      <XN_21.02.2021_1_21_08>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_21.02.2021_1_21_08>
+      <XN_21.02.2021_3_02_55>Failure Predicted !!! Attribute : Spin Retry Count</XN_21.02.2021_3_02_55>
+      <XN_21.02.2021_6_36_29>Failure Predicted !!! Attribute : Write Error Rate</XN_21.02.2021_6_36_29>
+      <XN_21.02.2021_7_01_50>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_21.02.2021_7_01_50>
+      <XN_21.02.2021_8_12_51>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_21.02.2021_8_12_51>
+      <XN_22.02.2021_0_40_42>Failure Predicted !!! Attribute : Spin Retry Count</XN_22.02.2021_0_40_42>
+      <XN_22.02.2021_1_51_53>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_22.02.2021_1_51_53>
+      <XN_22.02.2021_6_58_05>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_22.02.2021_6_58_05>
+      <XN_23.02.2021_17_28_33>Failure Predicted !!! Attribute : Spin Retry Count</XN_23.02.2021_17_28_33>
+      <XN_24.02.2021_13_49_13>Failure Predicted !!! Attribute : Spin Retry Count</XN_24.02.2021_13_49_13>
+      <XN_25.02.2021_1_51_57>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_25.02.2021_1_51_57>
+      <XN_25.02.2021_2_27_37>Failure Predicted !!! Attribute : Spin Retry Count</XN_25.02.2021_2_27_37>
+      <XN_25.02.2021_7_17_25>Failure Predicted !!! Attribute : Off-Line Uncorrectable Sector Count</XN_25.02.2021_7_17_25>
+      <XN_25.02.2021_13_38_56>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_25.02.2021_13_38_56>
+      <XN_26.02.2021_15_25_52>Failure Predicted !!! Attribute : Spin Retry Count</XN_26.02.2021_15_25_52>
+      <XN_27.02.2021_0_30_33>Failure Predicted !!! Attribute : Spin Retry Count</XN_27.02.2021_0_30_33>
+      <XN_28.02.2021_0_30_35>Failure Predicted !!! Attribute : Spin Retry Count</XN_28.02.2021_0_30_35>
+      <XN_01.03.2021_2_47_54>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_01.03.2021_2_47_54>
+      <XN_01.03.2021_12_32_53>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_01.03.2021_12_32_53>
+      <XN_01.03.2021_19_35_04>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_01.03.2021_19_35_04>
+      <XN_04.03.2021_12_08_22>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_04.03.2021_12_08_22>
+      <XN_06.03.2021_22_43_29>Failure Predicted !!! Attribute : Spin Retry Count</XN_06.03.2021_22_43_29>
+      <XN_07.03.2021_1_31_40>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_07.03.2021_1_31_40>
+      <XN_07.03.2021_7_02_49>Failure Predicted !!! Attribute : Spin Retry Count</XN_07.03.2021_7_02_49>
+      <XN_08.03.2021_1_26_33>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_08.03.2021_1_26_33>
+      <XN_10.03.2021_0_30_34>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_10.03.2021_0_30_34>
+      <XN_10.03.2021_0_50_53>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_10.03.2021_0_50_53>
+      <XN_14.03.2021_15_41_26>Failure Predicted !!! Attribute : Write Error Rate</XN_14.03.2021_15_41_26>
+      <XN_16.03.2021_16_32_08>Failure Predicted !!! Attribute : Spin Retry Count</XN_16.03.2021_16_32_08>
+      <XN_21.03.2021_18_20_57>Failure Predicted !!! Attribute : Spin Retry Count</XN_21.03.2021_18_20_57>
+      <XN_24.03.2021_17_34_46>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_24.03.2021_17_34_46>
+      <XN_29.03.2021_12_48_10>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_29.03.2021_12_48_10>
+      <XN_31.03.2021_23_12_50>Failure Predicted !!! Attribute : Spin Retry Count</XN_31.03.2021_23_12_50>
+      <XN_01.04.2021_0_51_16>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_01.04.2021_0_51_16>
+      <XN_02.04.2021_20_49_25>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_02.04.2021_20_49_25>
+      <XN_03.04.2021_6_59_43>Failure Predicted !!! Attribute : Spin Retry Count</XN_03.04.2021_6_59_43>
+      <XN_04.04.2021_14_38_12>Failure Predicted !!! Attribute : Spin Retry Count</XN_04.04.2021_14_38_12>
+      <XN_05.04.2021_2_42_15>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_05.04.2021_2_42_15>
+      <XN_05.04.2021_4_13_30>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_05.04.2021_4_13_30>
+      <XN_05.04.2021_4_23_39>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_05.04.2021_4_23_39>
+      <XN_05.04.2021_5_14_21>Failure Predicted !!! Attribute : Spin Retry Count</XN_05.04.2021_5_14_21>
+      <XN_07.04.2021_0_40_34>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_07.04.2021_0_40_34>
+      <XN_08.04.2021_1_00_51>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_08.04.2021_1_00_51>
+      <XN_08.04.2021_1_16_03>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_08.04.2021_1_16_03>
+      <XN_08.04.2021_1_31_16>Failure Predicted !!! Attribute : Spin Retry Count</XN_08.04.2021_1_31_16>
+      <XN_09.04.2021_0_50_57>Failure Predicted !!! Attribute : Spin Retry Count</XN_09.04.2021_0_50_57>
+      <XN_09.04.2021_7_01_04>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_09.04.2021_7_01_04>
+      <XN_09.04.2021_10_54_17>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_09.04.2021_10_54_17>
+      <XN_10.04.2021_0_36_02>Failure Predicted !!! Attribute : Spin Retry Count</XN_10.04.2021_0_36_02>
+      <XN_10.04.2021_2_42_47>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_10.04.2021_2_42_47>
+      <XN_10.04.2021_3_08_08>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_10.04.2021_3_08_08>
+      <XN_10.04.2021_3_18_16>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_10.04.2021_3_18_16>
+      <XN_10.04.2021_10_03_53>Failure Predicted !!! Attribute : Write Error Rate</XN_10.04.2021_10_03_53>
+      <XN_12.04.2021_23_04_07>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_12.04.2021_23_04_07>
+      <XN_12.04.2021_23_59_54>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_12.04.2021_23_59_54>
+      <XN_13.04.2021_2_57_28>Failure Predicted !!! Attribute : Current Pending Sector Count</XN_13.04.2021_2_57_28>
+      <XN_13.04.2021_3_22_49>Failure Predicted !!! Attribute : Reallocated Sectors Count</XN_13.04.2021_3_22_49>
+      <XN_13.04.2021_3_48_10>Failure Predicted !!! Attribute : Vendor-specific (0)</XN_13.04.2021_3_48_10>
+      <XN_13.04.2021_7_36_19>Failure Predicted !!! Attribute : Spin Retry Count</XN_13.04.2021_7_36_19>
+    </Alerts>
+    <Log>
+      <XN_09.10.2021_21_27_48>#199   Ultra ATA CRC Error Count  19896 -] 19897</XN_09.10.2021_21_27_48>
+      <XN_08.10.2021_8_06_43>#199   Ultra ATA CRC Error Count  19895 -] 19896</XN_08.10.2021_8_06_43>
+      <XN_07.10.2021_23_29_29>#199   Ultra ATA CRC Error Count  19894 -] 19895</XN_07.10.2021_23_29_29>
+      <XN_07.10.2021_21_58_13>#199   Ultra ATA CRC Error Count  19893 -] 19894</XN_07.10.2021_21_58_13>
+      <XN_07.10.2021_7_00_49>#199   Ultra ATA CRC Error Count  19892 -] 19893</XN_07.10.2021_7_00_49>
+      <XN_07.10.2021_6_50_41>#199   Ultra ATA CRC Error Count  19891 -] 19892</XN_07.10.2021_6_50_41>
+      <XN_07.10.2021_0_20_17>#199   Ultra ATA CRC Error Count  19890 -] 19891</XN_07.10.2021_0_20_17>
+      <XN_07.10.2021_0_10_09>#199   Ultra ATA CRC Error Count  19889 -] 19890</XN_07.10.2021_0_10_09>
+      <XN_06.10.2021_21_13_35>#199   Ultra ATA CRC Error Count  19888 -] 19889</XN_06.10.2021_21_13_35>
+      <XN_30.09.2021_4_43_56>#199   Ultra ATA CRC Error Count  19887 -] 19888</XN_30.09.2021_4_43_56>
+      <XN_29.09.2021_3_58_18>#199   Ultra ATA CRC Error Count  19886 -] 19887</XN_29.09.2021_3_58_18>
+      <XN_28.09.2021_22_59_03>#199   Ultra ATA CRC Error Count  19885 -] 19886</XN_28.09.2021_22_59_03>
+      <XN_25.09.2021_11_24_28>#199   Ultra ATA CRC Error Count  19884 -] 19885</XN_25.09.2021_11_24_28>
+      <XN_25.09.2021_10_43_54>#199   Ultra ATA CRC Error Count  19883 -] 19884</XN_25.09.2021_10_43_54>
+      <XN_25.09.2021_8_37_09>#199   Ultra ATA CRC Error Count  19882 -] 19883</XN_25.09.2021_8_37_09>
+      <XN_25.09.2021_4_08_26>#199   Ultra ATA CRC Error Count  19880 -] 19882</XN_25.09.2021_4_08_26>
+      <XN_25.09.2021_0_40_34>#199   Ultra ATA CRC Error Count  19879 -] 19880</XN_25.09.2021_0_40_34>
+      <XN_24.09.2021_21_58_12>#199   Ultra ATA CRC Error Count  19878 -] 19879</XN_24.09.2021_21_58_12>
+      <XN_24.09.2021_7_31_14>#199   Ultra ATA CRC Error Count  19877 -] 19878</XN_24.09.2021_7_31_14>
+      <XN_24.09.2021_6_50_40>#199   Ultra ATA CRC Error Count  19876 -] 19877</XN_24.09.2021_6_50_40>
+      <XN_24.09.2021_5_14_20>#199   Ultra ATA CRC Error Count  19875 -] 19876</XN_24.09.2021_5_14_20>
+      <XN_24.09.2021_4_03_22>#199   Ultra ATA CRC Error Count  19874 -] 19875</XN_24.09.2021_4_03_22>
+      <XN_24.09.2021_3_58_17>#199   Ultra ATA CRC Error Count  19873 -] 19874</XN_24.09.2021_3_58_17>
+      <XN_23.09.2021_14_57_24>#199   Ultra ATA CRC Error Count  19872 -] 19873</XN_23.09.2021_14_57_24>
+      <XN_23.09.2021_13_51_30>#199   Ultra ATA CRC Error Count  19871 -] 19872</XN_23.09.2021_13_51_30>
+      <XN_23.09.2021_6_05_03>#199   Ultra ATA CRC Error Count  19870 -] 19871</XN_23.09.2021_6_05_03>
+      <XN_22.09.2021_22_53_59>#199   Ultra ATA CRC Error Count  19869 -] 19870</XN_22.09.2021_22_53_59>
+      <XN_22.09.2021_17_09_13>#199   Ultra ATA CRC Error Count  19868 -] 19869</XN_22.09.2021_17_09_13>
+      <XN_22.09.2021_11_04_10>#199   Ultra ATA CRC Error Count  19867 -] 19868</XN_22.09.2021_11_04_10>
+      <XN_21.09.2021_22_03_17>#199   Ultra ATA CRC Error Count  19866 -] 19867</XN_21.09.2021_22_03_17>
+      <XN_21.09.2021_20_52_18>#199   Ultra ATA CRC Error Count  19865 -] 19866</XN_21.09.2021_20_52_18>
+      <XN_21.09.2021_20_47_14>#199   Ultra ATA CRC Error Count  19864 -] 19865</XN_21.09.2021_20_47_14>
+      <XN_21.09.2021_19_31_11>#199   Ultra ATA CRC Error Count  19863 -] 19864</XN_21.09.2021_19_31_11>
+      <XN_20.09.2021_21_27_47>#199   Ultra ATA CRC Error Count  19862 -] 19863</XN_20.09.2021_21_27_47>
+      <XN_20.09.2021_1_46_28>#199   Ultra ATA CRC Error Count  19861 -] 19862</XN_20.09.2021_1_46_28>
+      <XN_20.09.2021_0_15_13>#199   Ultra ATA CRC Error Count  19860 -] 19861</XN_20.09.2021_0_15_13>
+      <XN_19.09.2021_13_26_10>#199   Ultra ATA CRC Error Count  19859 -] 19860</XN_19.09.2021_13_26_10>
+      <XN_19.09.2021_0_25_22>#199   Ultra ATA CRC Error Count  19858 -] 19859</XN_19.09.2021_0_25_22>
+      <XN_18.09.2021_23_45_38>#199   Ultra ATA CRC Error Count  19857 -] 19858</XN_18.09.2021_23_45_38>
+      <XN_18.09.2021_16_33_44>#199   Ultra ATA CRC Error Count  19856 -] 19857</XN_18.09.2021_16_33_44>
+      <XN_18.09.2021_15_22_45>#199   Ultra ATA CRC Error Count  19855 -] 19856</XN_18.09.2021_15_22_45>
+      <XN_18.09.2021_3_02_32>#199   Ultra ATA CRC Error Count  19854 -] 19855</XN_18.09.2021_3_02_32>
+      <XN_17.09.2021_17_19_21>#199   Ultra ATA CRC Error Count  19853 -] 19854</XN_17.09.2021_17_19_21>
+      <XN_17.09.2021_7_36_18>#199   Ultra ATA CRC Error Count  19852 -] 19853</XN_17.09.2021_7_36_18>
+      <XN_17.09.2021_7_16_01>#199   Ultra ATA CRC Error Count  19851 -] 19852</XN_17.09.2021_7_16_01>
+      <XN_17.09.2021_0_30_25>#199   Ultra ATA CRC Error Count  19850 -] 19851</XN_17.09.2021_0_30_25>
+      <XN_17.09.2021_0_05_04>#199   Ultra ATA CRC Error Count  19849 -] 19850</XN_17.09.2021_0_05_04>
+      <XN_16.09.2021_22_28_38>#199   Ultra ATA CRC Error Count  19848 -] 19849</XN_16.09.2021_22_28_38>
+      <XN_16.09.2021_19_51_28>#199   Ultra ATA CRC Error Count  19847 -] 19848</XN_16.09.2021_19_51_28>
+      <XN_16.09.2021_13_21_04>#199   Ultra ATA CRC Error Count  19846 -] 19847</XN_16.09.2021_13_21_04>
+    </Log>
+  </Physical_Disk_Information_Disk_0>
+  <Partition_Information>
+    <Partition Drive="C: VOLUME1 (Disk: #0)" Total_Space="12345 MB" Free_Space="12345 MB" Free_Space_Percent=" 12 %" />
+    <Partition Drive="D: VOLUME2 (Disk: #0)" Total_Space="12345 MB" Free_Space="12345 MB" Free_Space_Percent="  5 % (Low)" />
+  </Partition_Information>
+  <Windows_Volume_RAID_Information>
+  </Windows_Volume_RAID_Information>
+  <System_Management_Information>
+    <Motherboard_Information>
+      <Manufacturer>Manufacturer</Manufacturer>
+      <Product>Product</Product>
+    </Motherboard_Information>
+    <System_Information>
+      <Manufacturer>System manufacturer</Manufacturer>
+      <Product>System Product Name   System Version</Product>
+      <Serial_number>System Serial Number</Serial_number>
+    </System_Information>
+  </System_Management_Information>
+</Hard_Disk_Sentinel>
