@@ -4,8 +4,9 @@ verify_ssl = true
 url = "https://pypi.python.org/simple"
 
 [packages]
+lxml = "4.9.1"
 prometheus-client = "0.14"
-# pydantic = "1.9"
+pydantic = "1.9"
 requests = "2.28"
 
 [dev-packages]
