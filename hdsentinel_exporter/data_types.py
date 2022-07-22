@@ -1,4 +1,5 @@
 import re
+from typing import Optional
 
 import pydantic
 
@@ -11,7 +12,7 @@ class HardDiskSummary(pydantic.BaseModel):
     Hard_Disk_Model_ID: str
     Firmware_Revision: str
     Hard_Disk_Serial_Number: str
-    SSD_Controller: str
+    SSD_Controller: Optional[str]
     Total_Size: float
     Power_State: str
     Logical_Drive_s: str

@@ -1,9 +1,12 @@
+import logging
 from typing import Dict, Generator
 
 import lxml.etree
 import requests
 
 from . import data_types
+
+logger = logging.getLogger(__name__)
 
 
 class HDSentinelError(Exception):
@@ -19,7 +22,7 @@ class ParseError(HDSentinelError):
 
 
 def xml_children_as_dict(xml_element: lxml.etree._Element) -> Dict[str, str]:
-    return {i.tag: i.text for i in xml_element.getchildren()}
+    return {i.tag: i.text or '' for i in xml_element.iterchildren()}
 
 
 class HDSentinel:
@@ -29,12 +32,14 @@ class HDSentinel:
 
     def fetch_xml(self) -> bytes:
         xml_url = f'http://{self.host}:{self.port}/xml'
+        logger.debug('Fetching: %s', xml_url)
         response = requests.get(xml_url)
         if not response.ok:
             raise FetchError(f'HTTP error {response.status_code} while fetching {xml_url}.')
         return response.content
 
     def parse_xml(self, xml_data: bytes) -> Generator[data_types.HardDiskSummary, None, None]:
+        logger.debug('Parsing XML (%d bytes)', len(xml_data))
         parsed_xml = lxml.etree.fromstring(xml_data)
         if parsed_xml.tag != 'Hard_Disk_Sentinel':
             raise ParseError('HDSentinel XML does not start with `Hard_Disk_Sentinel` tag.')
