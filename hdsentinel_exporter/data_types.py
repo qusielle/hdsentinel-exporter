@@ -46,6 +46,13 @@ class HardDiskSummary(pydantic.BaseModel):
             raise ValueError(f'{value} is not a supported temperature.')
         return float(match.group())
 
+    @pydantic.validator(
+        'Health',
+        'Performance',
+    )
+    def convert_percents_to_ratio(cls, value) -> float:
+        return value / 100
+
     @pydantic.root_validator
     def set_harddisk_id(cls, values) -> dict:
         values['disk_id'] = f'{values["Hard_Disk_Model_ID"]} - {values["Hard_Disk_Serial_Number"]}'

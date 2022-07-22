@@ -1,7 +1,7 @@
 import logging
 import requests
 import time
-from typing import Iterable, List
+from typing import Dict, Iterable
 
 import prometheus_client
 
@@ -11,14 +11,14 @@ logger = logging.getLogger(__name__)
 
 
 class Metrics:
-    def __init__(self, gauge_names: List[str]):
+    def __init__(self, gauge_name_unit: Dict[str, str]):
         self.gauges = {
             metric_name: prometheus_client.Gauge(
-                name=f'HDS_{metric_name}'.lower(),
+                name=f'HDS_{metric_name}_{metric_unit}'.lower(),
                 documentation=f'HDSentinel {metric_name}',
                 labelnames=['disk_id', 'host'],
             )
-            for metric_name in gauge_names
+            for metric_name, metric_unit in gauge_name_unit.items()
         }
 
     def clear_metrics(self):
@@ -37,13 +37,13 @@ class Metrics:
 
 
 def start_server(hdsentinel_client: hdsentinel.HDSentinel, update_interval: int):
-    exposed_metrics = Metrics([
-        'Current_Temperature',
-        'Daily_Average',
-        'Daily_Maximum',
-        'Health',
-        'Performance',
-    ])
+    exposed_metrics = Metrics({
+        'Current_Temperature': 'celsius',
+        'Daily_Average': 'celsius',
+        'Daily_Maximum': 'celsius',
+        'Health': 'ratio',
+        'Performance': 'ratio',
+    })
 
     prometheus_client.start_http_server(8002)
 

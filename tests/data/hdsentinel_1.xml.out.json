@@ -18,8 +18,8 @@
   "Daily_Maximum": 40.0,
   "Power_on_time": "1593 days, 6 hours",
   "Estimated_remaining_lifetime": "200 days",
-  "Health": 93.0,
-  "Performance": 100.0,
+  "Health": 0.93,
+  "Performance": 1.0,
   "Description": "The status of the solid state disk is PERFECT. Problematic or weak sectors were not found.  The TRIM feature of the SSD is supported and enabled for optimal performance. The health is determined by SSD specific S.M.A.R.T. attribute(s):  #177 Wear Leveling Count",
   "Tip": "No actions needed.",
   "disk_id": "SSD Model - 1234567890"
