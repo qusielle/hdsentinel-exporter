@@ -1,42 +1,43 @@
 import logging
 import requests
 import time
+from typing import Iterable, List
 
 import prometheus_client
 
-from . import hdsentinel
+from . import hdsentinel, data_types
 
 logger = logging.getLogger(__name__)
 
 
-def init_metrics(metric_names: list) -> dict:
-    return {
-        metric_name: prometheus_client.Gauge(
-            name=f'HDS_{metric_name}',
-            documentation=f'HDSentinel {metric_name}',
-            labelnames=['disk_id'],
-        )
-        for metric_name in metric_names
-    }
+class Metrics:
+    def __init__(self, gauge_names: List[str]):
+        self.gauges = {
+            metric_name: prometheus_client.Gauge(
+                name=f'HDS_{metric_name}'.lower(),
+                documentation=f'HDSentinel {metric_name}',
+                labelnames=['disk_id', 'host'],
+            )
+            for metric_name in gauge_names
+        }
 
+    def clear_metrics(self):
+        for metric in self.gauges.values():
+            metric.clear()
 
-def update_metrics(disk_summaries, exposed_metrics):
-    clear_metrics(exposed_metrics)
+    def update_metrics(self, host_name: str, disk_summaries: Iterable[data_types.HardDiskSummary]):
+        self.clear_metrics()
 
-    for disk_summary in disk_summaries:
-        for metric_name, metric in exposed_metrics.items():
-            metric.labels(
-                disk_id=disk_summary.disk_id
-            ).set(getattr(disk_summary, metric_name))
-
-
-def clear_metrics(exposed_metrics):
-    for metric in exposed_metrics.values():
-        metric.clear()
+        for disk_summary in disk_summaries:
+            for metric_name, metric in self.gauges.items():
+                metric.labels(
+                    disk_id=disk_summary.disk_id,
+                    host=host_name,
+                ).set(getattr(disk_summary, metric_name))
 
 
 def start_server(hdsentinel_client: hdsentinel.HDSentinel, update_interval: int):
-    exposed_metrics = init_metrics([
+    exposed_metrics = Metrics([
         'Current_Temperature',
         'Daily_Average',
         'Daily_Maximum',
@@ -51,9 +52,9 @@ def start_server(hdsentinel_client: hdsentinel.HDSentinel, update_interval: int)
             xml = hdsentinel_client.fetch_xml()
         except (requests.exceptions.ConnectionError, hdsentinel.FetchError) as e:
             logger.error('Failed to fetch HDSentinel XML: %s', e)
-            clear_metrics(exposed_metrics)
+            exposed_metrics.clear_metrics()
             continue
 
         disk_summaries = hdsentinel_client.parse_xml(xml)
-        update_metrics(disk_summaries, exposed_metrics)
+        exposed_metrics.update_metrics(hdsentinel_client.host, disk_summaries)
         time.sleep(update_interval)

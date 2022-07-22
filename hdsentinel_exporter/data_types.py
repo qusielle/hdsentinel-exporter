@@ -27,6 +27,7 @@ class HardDiskSummary(pydantic.BaseModel):
     Performance: float
     Description: str
     Tip: str
+    disk_id: Optional[str]
 
     @pydantic.validator(
         'Total_Size',
