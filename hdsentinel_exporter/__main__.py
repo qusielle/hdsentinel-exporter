@@ -36,10 +36,14 @@ def main():
     args = cli.parse_args()
 
     init_logging(args.debug)
+    logger = logging.getLogger(__name__)
 
     hdsentinel_client = hdsentinel.HDSentinel(args.host, args.port)
 
-    prometheus.start_server(hdsentinel_client, args.interval)
+    try:
+        prometheus.start_server(hdsentinel_client, args.interval)
+    except KeyboardInterrupt:
+        logger.info('Exiting after a keyboard interrupt.')
 
 
 if __name__ == "__main__":
