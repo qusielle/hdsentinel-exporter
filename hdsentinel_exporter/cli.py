@@ -26,5 +26,11 @@ def parse_args():
         default=10,
         help='data fetching interval in seconds',
     )
+    parser.add_argument(
+        '--exporter-port',
+        type=int,
+        default=9958,
+        help='exporter webservice port',
+    )
 
     return parser.parse_args()

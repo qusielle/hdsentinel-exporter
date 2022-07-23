@@ -41,7 +41,7 @@ def main():
     hdsentinel_client = hdsentinel.HDSentinel(args.host, args.port)
 
     try:
-        prometheus.start_server(hdsentinel_client, args.interval)
+        prometheus.start_server(hdsentinel_client, args.interval, args.exporter_port)
     except KeyboardInterrupt:
         logger.info('Exiting after a keyboard interrupt.')
 

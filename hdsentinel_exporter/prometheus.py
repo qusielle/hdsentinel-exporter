@@ -36,7 +36,11 @@ class Metrics:
                 ).set(getattr(disk_summary, metric_name))
 
 
-def start_server(hdsentinel_client: hdsentinel.HDSentinel, update_interval: int):
+def start_server(
+        hdsentinel_client: hdsentinel.HDSentinel,
+        update_interval: int,
+        exporter_port: int
+):
     exposed_metrics = Metrics({
         'Current_Temperature': 'celsius',
         'Daily_Average': 'celsius',
@@ -45,7 +49,8 @@ def start_server(hdsentinel_client: hdsentinel.HDSentinel, update_interval: int)
         'Performance': 'ratio',
     })
 
-    prometheus_client.start_http_server(8002)
+    logger.info('Starting exporter webservice on %d port', exporter_port)
+    prometheus_client.start_http_server(exporter_port)
 
     while True:
         try:
