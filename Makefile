@@ -12,3 +12,7 @@ mypy:
 
 .PHONY: lint
 lint: autopep flake8 mypy
+
+.PHONY: test
+test:
+	python -m pytest -vv .
