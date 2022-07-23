@@ -1,0 +1,12 @@
+image: python:3.8
+
+stages:
+  - lint_and_test
+
+lint_and_test:
+  stage: lint_and_test
+  script:
+    - pip install pipenv
+    - pipenv sync -d 
+    - pipenv run make lint
+    - pipenv run make test
