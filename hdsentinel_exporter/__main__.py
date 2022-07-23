@@ -2,7 +2,7 @@
 import logging
 import sys
 
-from . import cli, hdsentinel, prometheus
+from . import cli, hdsentinel, prometheus, settings
 
 
 class LogFormatter(logging.Formatter):
@@ -34,14 +34,16 @@ def init_logging(debug: bool):
 
 def main():
     args = cli.parse_args()
+    for arg, value in vars(args).items():
+        setattr(settings, arg, value)
 
-    init_logging(args.debug)
+    init_logging(settings.debug)
     logger = logging.getLogger(__name__)
 
-    hdsentinel_client = hdsentinel.HDSentinel(args.host, args.port)
+    hdsentinel_client = hdsentinel.HDSentinel(settings.host, settings.port)
 
     try:
-        prometheus.start_server(hdsentinel_client, args.interval, args.exporter_port)
+        prometheus.start_server(hdsentinel_client)
     except KeyboardInterrupt:
         logger.info('Exiting after a keyboard interrupt.')
 

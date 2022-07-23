@@ -5,7 +5,7 @@ from typing import Dict, Iterable
 
 import prometheus_client
 
-from . import hdsentinel, data_types
+from . import data_types, hdsentinel, settings
 
 logger = logging.getLogger(__name__)
 
@@ -36,11 +36,7 @@ class Metrics:
                 ).set(getattr(disk_summary, metric_name))
 
 
-def start_server(
-        hdsentinel_client: hdsentinel.HDSentinel,
-        update_interval: int,
-        exporter_port: int
-):
+def start_server(hdsentinel_client: hdsentinel.HDSentinel):
     exposed_metrics = Metrics({
         'Current_Temperature': 'celsius',
         'Daily_Average': 'celsius',
@@ -49,8 +45,8 @@ def start_server(
         'Performance': 'ratio',
     })
 
-    logger.info('Starting exporter webservice on %d port', exporter_port)
-    prometheus_client.start_http_server(exporter_port)
+    logger.info('Starting exporter webservice on %d port', settings.exporter_port)
+    prometheus_client.start_http_server(settings.exporter_port)
 
     while True:
         try:
@@ -62,4 +58,4 @@ def start_server(
 
         disk_summaries = hdsentinel_client.parse_xml(xml)
         exposed_metrics.update_metrics(hdsentinel_client.host, disk_summaries)
-        time.sleep(update_interval)
+        time.sleep(settings.interval)
