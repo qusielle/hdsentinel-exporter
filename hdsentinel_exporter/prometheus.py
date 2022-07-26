@@ -9,12 +9,24 @@ from . import data_types, hdsentinel, settings
 
 logger = logging.getLogger(__name__)
 
+EXPOSED_METRICS = {
+    'Current_Temperature': 'celsius',
+    'Daily_Average': 'celsius',
+    'Daily_Maximum': 'celsius',
+    'Health': 'ratio',
+    'Performance': 'ratio',
+}
+
+
+def _compose_metric_name(name: str, unit: str) -> str:
+    return f'HDS_{name}_{unit}'.lower()
+
 
 class Metrics:
     def __init__(self, gauge_name_unit: Dict[str, str]):
         self.gauges = {
             metric_name: prometheus_client.Gauge(
-                name=f'HDS_{metric_name}_{metric_unit}'.lower(),
+                name=_compose_metric_name(metric_name, metric_unit),
                 documentation=f'HDSentinel {metric_name}',
                 labelnames=['disk_id', 'host'],
             )
@@ -37,13 +49,7 @@ class Metrics:
 
 
 def start_server(hdsentinel_client: hdsentinel.HDSentinel):
-    exposed_metrics = Metrics({
-        'Current_Temperature': 'celsius',
-        'Daily_Average': 'celsius',
-        'Daily_Maximum': 'celsius',
-        'Health': 'ratio',
-        'Performance': 'ratio',
-    })
+    exposed_metrics = Metrics(EXPOSED_METRICS)
 
     logger.info('Starting exporter webservice on %d port', settings.exporter_port)
     prometheus_client.start_http_server(settings.exporter_port)
