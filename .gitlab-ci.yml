@@ -1,12 +1,30 @@
 image: python:3.8
 
 stages:
-  - lint_and_test
+  - test
 
 lint_and_test:
-  stage: lint_and_test
+  stage: test
   script:
     - pip install pipenv
     - pipenv sync -d 
     - pipenv run make lint
     - pipenv run make test
+
+docker_build:
+  stage: test
+  image:
+    # An alpine-based image with the `docker` CLI installed.
+    name: docker:stable
+  services:
+    - name: docker:dind
+      alias: docker-daemon
+  variables:
+    # Tell docker CLI how to talk to Docker daemon.
+    DOCKER_HOST: tcp://docker-daemon:2375/
+    # Use the overlayfs driver for improved performance.
+    DOCKER_DRIVER: overlay2
+    # Disable TLS since we're running inside local network.
+    DOCKER_TLS_CERTDIR: ""
+  script:
+    - docker build .
