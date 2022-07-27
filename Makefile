@@ -2,15 +2,15 @@ SHELL := /bin/bash
 
 .PHONY: autopep
 autopep:
-	autopep8 -aaaa --exit-code --in-place --max-line-length 99 --recursive .
+	autopep8 -aaaa --exit-code --in-place --max-line-length 99 --recursive --exclude .pipenv .
 
 .PHONY: flake8
 flake8:
-	flake8 --max-line-length 99 .
+	flake8 --max-line-length 99 --exclude .pipenv .
 
 .PHONY: mypy
 mypy:
-	mypy .
+	mypy --exclude .pipenv .
 
 .PHONY: lint
 lint: autopep flake8 mypy
