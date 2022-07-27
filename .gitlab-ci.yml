@@ -1,10 +1,19 @@
 image: python:3.8
 
+variables:
+  WORKON_HOME: .pipenv/venvs
+  PIP_CACHE_DIR: .pipenv/pipcache
+  PIPENV_CACHE_DIR: .pipenv/pipenvcache
+
 stages:
   - test
 
 lint_and_test:
   stage: test
+  cache:
+    key: pipenv
+    paths:
+      - .pipenv
   script:
     - pip install pipenv
     - pipenv sync -d
