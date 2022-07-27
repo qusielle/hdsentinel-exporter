@@ -15,9 +15,18 @@ mypy:
 .PHONY: lint
 lint: autopep flake8 mypy
 
+.coverage:
+	coverage run -m pytest -vv .
+
+coverage.xml: .coverage
+	coverage report
+	coverage xml -o $@
+
 .PHONY: test
-test:
-	python -m pytest -vv .
+test: .coverage
+
+.PHONY: coverage
+coverage: coverage.xml
 
 .PHONY: docker-build
 docker-build:

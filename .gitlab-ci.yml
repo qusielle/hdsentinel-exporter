@@ -7,9 +7,15 @@ lint_and_test:
   stage: test
   script:
     - pip install pipenv
-    - pipenv sync -d 
+    - pipenv sync -d
     - pipenv run make lint
-    - pipenv run make test
+    - pipenv run make coverage.xml
+  coverage: '/(?i)total.*? (100(?:\.0+)?\%|[1-9]?\d(?:\.\d+)?\%)$/'
+  artifacts:
+    reports:
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage.xml
 
 docker_build:
   stage: test
