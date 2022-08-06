@@ -4,7 +4,7 @@ from typing import Dict, Generator
 import lxml.etree
 import requests
 
-from . import data_types
+from . import data_types, settings
 
 logger = logging.getLogger(__name__)
 
@@ -30,7 +30,7 @@ class HDSentinel:
         self.host = host
         self.port = port
 
-    def fetch_xml(self) -> bytes:
+    def fetch_xml(self, timeout: int = settings.interval) -> bytes:
         xml_url = f'http://{self.host}:{self.port}/xml'
         logger.debug('Fetching: %s', xml_url)
         response = requests.get(xml_url)
