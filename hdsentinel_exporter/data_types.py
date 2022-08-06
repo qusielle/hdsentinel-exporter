@@ -5,28 +5,28 @@ import pydantic
 
 
 class HardDiskSummary(pydantic.BaseModel):
-    Hard_Disk_Number: int
-    Interface: str
-    Disk_Controller: str
-    Disk_Location: str
+    Hard_Disk_Number: Optional[int]
+    Interface: Optional[str]
+    Disk_Controller: Optional[str]
+    Disk_Location: Optional[str]
     Hard_Disk_Model_ID: str
-    Firmware_Revision: str
+    Firmware_Revision: Optional[str]
     Hard_Disk_Serial_Number: str
     SSD_Controller: Optional[str]
-    Total_Size: float
-    Power_State: str
-    Logical_Drive_s: str
+    Total_Size: Optional[float]
+    Power_State: Optional[str]
+    Logical_Drive_s: Optional[str]
     Current_Temperature: float
     Maximum_Temperature_ever_measured: float
     Minimum_Temperature_ever_measured: float
     Daily_Average: float
     Daily_Maximum: float
-    Power_on_time: str
-    Estimated_remaining_lifetime: str
+    Power_on_time: Optional[str]
+    Estimated_remaining_lifetime: Optional[str]
     Health: float
     Performance: float
-    Description: str
-    Tip: str
+    Description: Optional[str]
+    Tip: Optional[str]
     disk_id: Optional[str]
 
     @pydantic.validator(
