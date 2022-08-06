@@ -56,7 +56,7 @@ def start_server(hdsentinel_client: hdsentinel.HDSentinel):
 
     while True:
         try:
-            xml = hdsentinel_client.fetch_xml()
+            xml = hdsentinel_client.fetch_xml(timeout=settings.interval)
         except (requests.exceptions.ConnectionError, hdsentinel.FetchError) as e:
             logger.error('Failed to fetch HDSentinel XML: %s', e)
             exposed_metrics.clear_metrics()
